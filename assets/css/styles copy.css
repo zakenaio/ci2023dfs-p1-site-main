@@ -230,39 +230,42 @@ em {
 #button-2:hover a {
 }
 
-/* CSS for small screens */
-@media (max-width: 769px) {
-  .content, .content-w, .content-y, .content-c {
-   width: 100%;
-    z-index: 2;
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  .content,
+  .content-w,
+  .content-y,
+  .content-c {
+    width: 70%;
   }
-
-  .img-right, .img-left {
-    margin-left: -100px;
-    z-index: 1;
-    
-  }
-
-  header {
-    text-align: right;
-  }
-
-  nav {
-    text-align: left;
-  }
-
-  h2 {
-    font-size: 10px;
-  }
-  .parallax-right,
-.parallax-left {
-  background-attachment: fixed;
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  min-height: 200px;
-  background-size: 200vw;
-}
 }
 
-/* CSS for small screens */
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .content,
+  .content-w,
+  .content-y,
+  .content-c {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .content,
+  .content-w,
+  .content-y,
+  .content-c {
+    width: 30%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .content,
+  .content-w,
+  .content-y,
+  .content-c {
+    width: 25%;
+  }
+}
