@@ -1,27 +1,80 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+  
+}
+
+/* General styles */
+
 body {
   background-color: #ffffff;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Generic project styles */
+  color: #3a3a3a;
 }
 
 header {
   background-image: url("/ci2023dfs-p1-site-main/assets/images/pexels-victor-freitas-949126.jpg");
   background-size: cover;
+  height: 200px;
   color: #ffffff;
   text-transform: uppercase;
+  
+  
+}
+
+#logo {
+  font-size: 150%;
   text-align: center;
+  margin: -20px;
+
 }
 
 nav {
+  display: flex;
+  justify-content: center;
   font-size: small;
 }
 
-.nav-head {
-
+/* Main content */
+main {
+  /* Enlarge main element to push footer down*/
+  flex: 1 0 auto;
+  /* Enable flex properties for child elements */
+  display: flex;
+  align-self: center;
 }
 
-a {
+#welcome-section {
+}
+
+.image {
+  width: 80vw;
+  border-radius: 20px;
+ 
+}
+
+.welcome {
+  background-color: #9a9a9a;
+  border-radius: 20px;
+  width: 80vw;
+  margin-top: -10px;
+  margin-bottom: -30px;
+
+ }
+
+ #welcome-inside {
+  padding: 20px;
+ }
+
+
+nav a {
   border: 1px solid rgb(117, 117, 117);
   color: #ffffff;
   display: inline-block;
@@ -35,6 +88,7 @@ a {
 .flex-column  {
   display: flex;
   flex-direction: column;
+  
 }
 
 .flex-wrap {
@@ -47,21 +101,40 @@ a {
   justify-content: space-around;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
 /* Paralax */
 
 
-.services-container {
-  height: 300px;
-}
-
-.parallax-right,
-.parallax-left {
+.parallax {
   background-attachment: fixed;
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
   min-height: 500px;
   background-size: 150vw;
+}
+
+/* Footer */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 }
 
 /* BUTTONS */
@@ -103,4 +176,110 @@ a {
 }
 
 #button-2:hover a {
+}
+
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+  header {
+    background-image: url("/ci2023dfs-p1-site-main/assets/images/pexels-victor-freitas-949126.jpg");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+  }
+  
+
+  #logo {
+    height: min-content;
+    font-size: 200%;
+    text-align: right;
+    padding-right: 100px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+  }
+
+  /* Main content */
+  main {
+      /* Push main content down to accommodate larger header */
+      
+  }
+
+}
+
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  /* Header */
+  header {
+    background-image: url("/ci2023dfs-p1-site-main/assets/images/pexels-victor-freitas-949126.jpg");
+    background-size: cover;
+    height: 300px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  nav {
+    display: flex;
+    justify-content: end;
+    font-size: large;
+    padding-right: 70px;
+  }
+
+
+  #logo {
+      font-size: 200%;
+  }
+
+  /* Main content */
+  .image {
+    width: 300px;
+    border-radius: 20px;
+   
+  }
+  
+  #home {
+    display: flex;
+   
+
+  }
+
+  .welcome {
+    background-color: #9a9a9a;
+    border-radius: 20px;
+    width: 60vw;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: large;
+  
+  }
+  
+  #welcome-inside {
+    padding: 80px;
+  }
+
+  .side-image {
+    margin-top: 10px;
+    
+  }
+
+  
+  .img-right, {
+   z-index: 3;
+  
+  }
+
+  .img-left {
+   margin-left: -50px;
+  } 
+
+
+ 
 }
