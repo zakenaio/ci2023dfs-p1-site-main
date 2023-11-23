@@ -13,19 +13,20 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   background: #ffffff url("../images/pexels-victor-freitas-949126.jpg") no-repeat center/cover;
+  
 }
 
 #logo {
   font-size: 150%;
   text-align: center;
   margin: -20px;
-
 }
 
 nav {
   display: flex;
   justify-content: center;
   font-size: small;
+  
 }
 
 /* Main content */
@@ -39,7 +40,7 @@ main {
 }
 
 .color-h {
-  background-color: rgb(83, 83, 83);
+  background-color: rgb(213, 213, 213);
   z-index: 5;
   
 }
@@ -63,7 +64,7 @@ main {
 }
 
 .welcome {
-  background-color: #d6d6d6;
+  background-color: #efefef;
   border-radius: 20px;
   width: 80vw;
   margin-top: -40px;
@@ -84,10 +85,18 @@ main {
  }
 
 .black-pop {
-  background-color: #3a3a3a;
-  color: #9a9a9a;
+  background-color: #2b2b2b;
+  color: #cacaca;
   margin: 20px;
-  padding: 20px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.black-pop-side {
+  background-color: #2b2b2b;
+  color: #cacaca;
+  margin: 20px;
+  padding: 50px;
   border-radius: 20px;
 }
 
@@ -264,7 +273,7 @@ a {
   header {
     background-image: url("/ci2023dfs-p1-site-main/assets/images/pexels-victor-freitas-949126.jpg");
     background-size: cover;
-    height: 300px;
+    height: 500px;
     color: #ffffff;
     text-transform: uppercase;
   }
@@ -278,7 +287,7 @@ a {
 
 
   #logo {
-      font-size: 200%;
+      font-size: 300%;
   }
 
   /* Main content */
@@ -298,7 +307,7 @@ a {
   }
 
   .welcome {
-    width: 60vw;
+    width: 40vw;
     margin-top: -50px;
     font-size: large;
     padding: 50px;
@@ -306,12 +315,18 @@ a {
   }
 
   .freew {
-    width: 60vw;
+    width: 40vw;
     margin-top: -50px;
     margin-left: -60px;
     font-size: large;
     padding: 50px;
   
+  }
+
+  .black-pop-side {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: -46px;
   }
   
   #welcome-inside {
@@ -328,6 +343,24 @@ a {
   .img-left {
    margin-left: -50px;
   } 
+
+  .h1-right {
+    text-align: right;
+    font-size: 3em;
+  }
+
+  .flex-end {
+    align-items: end;
+  }
+
+  nav a {
+    border: 1px solid rgb(117, 117, 117);
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
 
   .parallax-1 {
     /* The image used */
