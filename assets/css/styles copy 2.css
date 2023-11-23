@@ -4,6 +4,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
   color: #3a3a3a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -34,25 +35,12 @@ main {
       flex: 1 0 auto;
       /* Enable flex properties for child elements */
       display: flex;
-      z-index: 1;
-
-}
-
-.color-h {
-  background-color: rgb(83, 83, 83);
-  z-index: 5;
-  
-}
-
-.color-f {
-  background-color: rgb(150, 176, 153);
-  z-index: 5;
+      justify-content: center;
 }
 
 .home {
   margin: 20px;
   justify-content: center;
-  
 }
 
 
@@ -63,15 +51,16 @@ main {
 }
 
 .welcome {
-  background-color: #d6d6d6;
+  background-color: #9a9a9a;
   border-radius: 20px;
   width: 80vw;
   margin-top: -40px;
   margin-bottom: -30px;
+
  }
 
  .freew {
-  background-color: #d2d2d2;
+  background-color: #9a9a9a;
   border-radius: 20px;
   width: 80vw;
   margin-top: -40px;
@@ -88,7 +77,6 @@ main {
   color: #9a9a9a;
   margin: 20px;
   padding: 20px;
-  border-radius: 20px;
 }
 
  .img-right {
@@ -114,7 +102,6 @@ nav a {
 .flex-column  {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   
 }
 
@@ -136,21 +123,6 @@ nav a {
 .justify {
   text-align: justify;
 }
-
-.hide {
-  display: none;
-}
-
-em {
-  font-weight: 600;
-  color: rgb(183, 77, 77);
-}
-
-a {
-  text-decoration: none;
-  color: rgb(200, 54, 54);
-}
-
 
 /* Paralax */
 .parallax-1 {
@@ -193,7 +165,7 @@ a {
 #button-3,
 #button-4 {
   margin: 10px;
-  background: rgba(185, 185, 185, 0.3);
+  background: rgba(114, 114, 114, 0.3);
   overflow: hidden;
   position: relative;
 }
@@ -293,24 +265,26 @@ a {
    
   }
 
-  .hide {
-    display: block;
-  }
 
   .welcome {
+    background-color: #9a9a9a;
+    border-radius: 20px;
     width: 60vw;
     margin-top: -50px;
+    margin-bottom: 10px;
     font-size: large;
     padding: 50px;
   
   }
 
   .freew {
+    background-color: #9a9a9a;
+    border-radius: 20px;
     width: 60vw;
     margin-top: -50px;
-    margin-left: -60px;
+    margin-bottom: 10px;
+    margin-left: -40px;
     font-size: large;
-    padding: 50px;
   
   }
   
@@ -324,6 +298,11 @@ a {
     
   }
 
+  
+  .img-right, {
+   margin-left: -50px;
+  
+  }
 
   .img-left {
    margin-left: -50px;
