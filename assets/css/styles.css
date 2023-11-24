@@ -31,6 +31,7 @@ nav {
 main {
   /* Enable flex properties for child elements */
   display: flex;
+  justify-content: center;
   z-index: 1;
 }
 
@@ -122,12 +123,11 @@ h1 {
 .black-inside {
   background-color: #2b2b2b;
   color: #cacaca;
-  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding: 30px;
   border-radius: 20px;
-  width: 80%;
 }
-
 
 .black-pop-side {
   background-color: #2b2b2b;
@@ -136,7 +136,14 @@ h1 {
   margin-bottom: -30px;
   padding: 30px;
   border-radius: 20px;
-  width: 76vw;
+}
+
+div.blob1 {
+  width: 40%;
+}
+
+div.blob2 {
+  width: 50%;
 }
 
 .img-right {
@@ -144,7 +151,7 @@ h1 {
 }
 
 .image-inside {
-  width: 80%;
+  width: 90%;
   border-radius: 20px;
 }
 
@@ -429,6 +436,11 @@ hr.red-solid {
     border-radius: 20px;
   }
   
+  .black-inside {
+    width: 100%;
+    margin-left: -27px;
+  }
+
   #welcome-inside {
     padding: 80px;
   }
