@@ -115,6 +115,15 @@ h1 {
   margin-left: 6%;  
 }
 
+.freey {
+  background-color: rgb(151, 141, 141);
+  border-radius: 20px;
+  width: 80vw;
+  margin-top: -20px;
+  margin-bottom: -30px;
+  margin-left: 6%;  
+}
+
 
 .welcome-inside {
   padding: 30px;
