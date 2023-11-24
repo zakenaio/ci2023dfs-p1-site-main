@@ -56,16 +56,18 @@ main {
 }
 
 .color-y {
-  background-color: rgb(139, 154, 121);
+  background-color: rgb(154, 156, 140);
   z-index: 5;
   width: 100vw;
 }
 
 .color-m {
-  background-color: rgb(134, 146, 119);
+  background-color: rgb(146, 137, 119);
   z-index: 5;
   width: 100vw;
 }
+
+
 
 .home {
   margin: 20px;
@@ -108,15 +110,6 @@ h1 {
 
 .freem {
   background-color: #d2d2d2;
-  border-radius: 20px;
-  width: 80vw;
-  margin-top: -20px;
-  margin-bottom: -30px;
-  margin-left: 6%;  
-}
-
-.freey {
-  background-color: rgb(151, 141, 141);
   border-radius: 20px;
   width: 80vw;
   margin-top: -20px;
