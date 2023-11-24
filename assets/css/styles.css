@@ -6,8 +6,6 @@ body {
   flex-direction: column;
   color: #3a3a3a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  
-  
 }
 
 header {
@@ -15,9 +13,6 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   background: #ffffff url("../images/header-pexels-victor-freitas-949126.jpg") no-repeat center/cover;
-  
-  
-  
 }
 
 #logo {
@@ -30,23 +25,19 @@ nav {
   display: flex;
   justify-content: center;
   font-size: small;
-  
 }
 
-/* Main content */
+/* MAIN CONTENT */
 main {
-      /* Enable flex properties for child elements */
-      display: flex;
-      z-index: 1;
-      
-
+  /* Enable flex properties for child elements */
+  display: flex;
+  z-index: 1;
 }
 
 .color-h {
   background-color: rgb(213, 213, 213);
   z-index: 5; 
   width: 100vw;
-  
 }
 
 .color-f {
@@ -66,8 +57,6 @@ main {
   z-index: 5;
   width: 100vw;
 }
-
-
 
 .home {
   margin: 20px;
@@ -109,7 +98,7 @@ h1 {
 }
 
 .freem {
-  background-color: #d2d2d2;
+  background-color: #ececec;
   border-radius: 20px;
   width: 80vw;
   margin-top: -20px;
@@ -140,12 +129,9 @@ h1 {
   width: 76vw;
 }
 
-
-
  .img-right {
-  margin-top: -40px;
- 
- }
+  margin-top: -40px; 
+}
 
 nav a {
   border: 1px solid rgb(117, 117, 117);
@@ -157,15 +143,14 @@ nav a {
 }
 
 .shadow {
-  box-shadow: 0 0 30px #464646;
+  box-shadow: 0 0 30px #2a2a2a;
 }
 
 /* FLEX PROPS */ 
 
 .flex-column  {
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
 
 .flex-wrap {
@@ -207,8 +192,6 @@ a {
 }
 
 /* HR LINES */
-
-/* Dashed gray border */
 hr.dash {
   border-top: 1px dashed rgb(107, 107, 107);
 }
@@ -228,8 +211,6 @@ hr.red-solid {
   margin-bottom: 30px;
 }
 
-
-
 /* Paralax */
 .parallax-1,
 .parallax-2,
@@ -244,37 +225,25 @@ hr.red-solid {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 .parallax-1 {
-  /* The image used */
+  /* MASHINE - FREE IMAGE */
   background-image: url("../images/free-para-pexels-leon-ardho-1552242.jpg"); 
 }
 
 .parallax-2 {
-  /* The image used */
+  /* YOGA IMAGE */
   background-image: url("../images/yoga-para-pexels-elina-fairytale-3822864.jpg");  
 }
 
 .parallax-3 {
-  /* The image used */
+  /* MEMBER IMAGE */
   background-image: url("../images/members-para-pexels-andrea-piacquadio-3757941.jpg");  
 }
 
 /* Footer */
-#social-networks {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
 
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
-  color: #3a3a3a;
-}
 
 /* BUTTONS */
 
