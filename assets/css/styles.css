@@ -37,9 +37,6 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  color: rgb(183, 77, 77);
-}
 /* MAIN CONTENT */
 main {
   display: flex;
@@ -246,6 +243,10 @@ a {
 
 .strong {
   font-size: 40px;
+}
+
+.hidden {
+  display: none;
 }
 
 /* FORM */
