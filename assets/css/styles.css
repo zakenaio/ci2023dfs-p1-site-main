@@ -37,6 +37,9 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: rgb(183, 77, 77);
+}
 /* MAIN CONTENT */
 main {
   /* Enable flex properties for child elements */
@@ -174,6 +177,8 @@ main {
   overflow: hidden;
   border-radius: 20px;
   margin: 20px;
+  height: 300px;
+  width: 90%;
 }
 
 .text-inside {
@@ -197,7 +202,7 @@ main {
 
 #yoga-class div {
   color: #efefef;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(126, 128, 114, 0.6);
   text-align: center;
   flex-basis: 150px;
   flex-grow: 1;
@@ -236,7 +241,7 @@ em {
 
 a {
   text-decoration: none;
-  color: rgb(200, 54, 54);
+  color: rgb(183, 77, 77);
 }
 
 .strong {
@@ -295,9 +300,6 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
-.justify {
-  text-align: justify;
-}
 
 .hide {
   display: none;
@@ -347,11 +349,14 @@ hr.red-solid {
 
 /* FOOTER */
 footer {
-  margin: 20px;
+  background-color: #3a3a3a;
+  color: #ececec;
   display: flex;
   justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
 }
-
 
 /* BUTTONS */
 
@@ -376,7 +381,7 @@ footer {
 }
 
 .slide {
-  background: rgba(200, 54, 54, .3);
+  background: rgba(213, 213, 213, .3);
   bottom: 0;
   height: 100%;
   left: -200px;
@@ -394,8 +399,6 @@ footer {
   left: 0;
 }
 
-
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -411,7 +414,6 @@ footer {
     font-size: large;
   }
 
-
   #logo {
       font-size: 300%;
       margin-top: -30px;
@@ -424,11 +426,28 @@ footer {
   }
   
   .text-inside {
-    font-size: 1.6em;
+    font-size: 1em;
+  }
+
+  .black-inside {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 95%;
+  }
+
+  .trainer-img {
+    position: absolute;
+    top: -9600px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
   }
 
 }
-
 
 /* Media query: tablets and larger (1040px and up) */
 @media screen and (min-width: 1040px) {
@@ -437,11 +456,20 @@ footer {
     height: 500px;
   }
 
+  #logo {
+    font-size: 500%;
+    margin-top: 20px;
+    margin-right: 15%;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: end;
+}
+
   nav {
     display: flex;
     justify-content: end;
     font-size: large;
-    padding-right: 70px;
+    padding-right: 15%;
   }
 
   nav a {
@@ -453,14 +481,6 @@ footer {
     text-decoration: none;
   }
 
-  #logo {
-      font-size: 500%;
-      margin-top: 20px;
-      margin-right: 80px;
-      letter-spacing: 2px;
-      line-height: 1;
-      text-align: end;
-  }
 
   h4-header {
     font-size: 60px;
@@ -590,7 +610,7 @@ footer {
 
   .trainer-img {
     position: absolute;
-    top: -9700px;
+    top: -9600px;
     left: -9999px;
     right: -9999px;
     bottom: -9999px;
@@ -616,11 +636,18 @@ footer {
 @media screen and (min-width: 2000px) {
   #logo {
     font-size: 500%;
-    margin-top: 100px;
-    margin-right: 80px;
+    margin-right: 22%;
+    margin-top: 30px;
     letter-spacing: 2px;
     line-height: 1;
     text-align: end;
+  }
+
+  nav {
+    display: flex;
+    justify-content: end;
+    font-size: large;
+    padding-right: 22%;
   }
   
   .welcome {
