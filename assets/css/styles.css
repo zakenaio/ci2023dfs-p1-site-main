@@ -139,6 +139,7 @@ main {
 .image-inside {
   width: 90%;
   border-radius: 20px;
+  margin: 10px;
 }
 
 .image-inside-y {
@@ -166,7 +167,6 @@ main {
 
 .text {
   text-align: center;
-  padding: 50px;
 }
 
 .black-inside {
@@ -305,7 +305,7 @@ input[type=submit]:hover {
 
 /* HR LINES */
 hr {
-  border-top: 2px solid #2a2a2a);
+  border-top: 2px solid #2a2a2a;
   margin-bottom: 30px;
 }
 
@@ -376,7 +376,7 @@ footer {
 }
 
 .slide {
-  background: rgba(212, 212, 212, 0.3);
+  background: rgba(200, 54, 54, .3);
   bottom: 0;
   height: 100%;
   left: -200px;
