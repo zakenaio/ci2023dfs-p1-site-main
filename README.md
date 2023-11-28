@@ -10,12 +10,12 @@ I wanted to challange the regular gym sites with its rough and hard edges and pl
 
 ### Lighthouse Score
 
-![Lighthouse](/ci2023dfs-p1-site-main/assets/images/lighthouse.png.png "Lighthouse Scores")
+![Lighthouse](assets/images/lighthouse.png.png "Lighthouse Scores")
 
 
 
 ### Wireframe 
-![Wireframe](/ci2023dfs-p1-site-main/images/Wireframe.png "Wireframe")
+![Wireframe](assets/images/Wireframe.png "Wireframe")
 
 #### Tools
 --------------------------------------------------------------------------------
