@@ -142,6 +142,10 @@ main {
   margin: 10px;
 }
 
+.side-image-member {
+  margin-top: -40px;
+}
+
 .image-inside-y {
   width: 80%;
   border-radius: 20px;
@@ -203,7 +207,7 @@ main {
 }
 
 .shadow {
-  box-shadow: 0 0 30px #2a2a2a;
+  box-shadow: 0 0 20px #2a2a2a;
 }
 
 /*YOGA CLASS*/
@@ -410,6 +414,25 @@ footer {
 #button-4:hover .slide,
 #button-t:hover .slide {
   left: 0;
+}
+
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.245); 
+  color: rgb(255, 255, 255); 
+  padding: 12px; 
+  border-radius: 15px; 
+  font-size: 16px; 
+  
+}
+
+#topButton:hover {
+  background-color: #2a2a2a; 
 }
 
 /* Media query: tablets and larger (768px and up) */
