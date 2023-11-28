@@ -3,13 +3,14 @@ body {
   color: #3a3a3a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
   height: 200px;
   color: #ffffff;
   text-transform: uppercase;
-  background: url("../images/header-pexels-victor-freitas-949126.jpg") no-repeat
+  background: url("../images/header-pexels-victor-freitas-949126.webp") no-repeat
     center/cover;
 }
 
@@ -206,7 +207,7 @@ main {
 
 /*YOGA CLASS*/
 #yoga-class {
-  background: url(../images/yoga-class-pexels-cliff-booth-4056723.jpg) no-repeat
+  background: url(../images/yoga-class-pexels-cliff-booth-4056723.webp) no-repeat
     center/cover;
   display: flex;
   flex-wrap: wrap;
@@ -249,6 +250,11 @@ a {
   color: rgb(144, 43, 43);
 }
 
+em3 {
+  font-weight: 600;
+  color: rgb(166, 102, 102);
+}
+
 .hidden {
   display: none;
 }
@@ -267,7 +273,7 @@ textarea {
 
 input[type="submit"] {
   background-color: rgba(185, 185, 185, 0.3);
-  color: white;
+  color: rgb(144, 43, 43);
   border: 1px solid rgb(117, 117, 117);
   padding: 12px 20px;
   cursor: pointer;
@@ -342,17 +348,17 @@ hr.red-solid {
 
 .parallax-1 {
   /* MACHINE - FREE IMAGE */
-  background-image: url("../images/free-para-pexels-leon-ardho-1552242.jpg");
+  background-image: url("../images/free-para-pexels-leon-ardho-1552242.webp");
 }
 
 .parallax-2 {
   /* YOGA IMAGE */
-  background-image: url("../images/yoga-para-pexels-elina-fairytale-3822864.jpg");
+  background-image: url("../images/yoga-para-pexels-elina-fairytale-3822864.webp");
 }
 
 .parallax-3 {
   /* MEMBER IMAGE */
-  background-image: url("../images/members-para-pexels-andrea-piacquadio-3757941.jpg");
+  background-image: url("../images/members-para-pexels-andrea-piacquadio-3757941.webp");
 }
 
 /* FOOTER */
@@ -534,7 +540,7 @@ footer {
   .freew {
     width: 50vw;
     margin-top: -150px;
-    margin-left: -5%;
+    margin-left: -37px;
     padding: 50px;
     margin-bottom: -30px;
     z-index: -1;
@@ -552,7 +558,7 @@ footer {
   .freem {
     width: 50vw;
     margin-top: -150px;
-    margin-left: -6%;
+    margin-left: -60px;
     padding: 50px;
     margin-bottom: -30px;
   }
@@ -582,6 +588,11 @@ footer {
   .side-image {
     margin-top: 10px;
     z-index: 6;
+  }
+
+  .side-image-member {
+    margin-top: 10px;
+
   }
 
   .black-inside {
