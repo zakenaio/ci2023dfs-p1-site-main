@@ -8,18 +8,25 @@ I wanted to challange the regular gym sites with its rough and hard edges and pl
 ### The Header
 --------------------------------------------------------------------------------
 
-### Lighthouse Score
+#### Lighthouse Score
+Desktop 
+![Lighthouse](assets/images/lighthouse-desktop.png "Lighthouse Scores desktop")
 
-![Lighthouse](assets/images/lighthouse.png "Lighthouse Scores")
+Mobile
+![Lighthouse](assets/images/lighthouse-mobile.png "Lighthouse Scores mobile")
 
 
+#### Wireframe 
+My initial idea deviates slightly from the final result, but its close. 
+I struggled with the right feel, so i made a one single section for 
+every part, instead of having h2 in one, content in one underneath. 
+I believe it was the right choice, simpler easier on the eyes. 
 
-### Wireframe 
 ![Wireframe](assets/images/Wireframe.png "Wireframe")
 
-#### Tools
+### Tools
 --------------------------------------------------------------------------------
-Mainly VS code, i found codeanywhere to be slow, and unreliable.
+Mainly VS code, i found Codeanywhere to be slow, and unreliable.
 Illustror for the wireframe. 
 
 ### REFS
@@ -41,7 +48,7 @@ All the images are from  [Pexels](https://www.pexels.com)
 | FORM | <https://www.w3schools.com/howto/howto_css_contact_section.asp> |
 
 ### BUGS 
-I found that my main sticks out behind the right scrollbar, my only solution was to just hide it with overflow-x hidden. Really bad hack but it serves its purpose.  
+
 
 ### DEPLOYMENT
 --------------------------------------------------------------------------------
