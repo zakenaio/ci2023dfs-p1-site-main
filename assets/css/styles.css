@@ -1,8 +1,5 @@
-/* General styles */
-
 body {
   margin: 0;
-  
   color: #3a3a3a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -19,7 +16,8 @@ header {
 #logo {
   font-size: 200%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
+  padding-top: 30px;
 }
 
 /* NAV */
@@ -41,8 +39,8 @@ nav a {
 /* MAIN CONTENT */
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  z-index: 1;
 }
 
 .home {
@@ -75,7 +73,7 @@ main {
 }
 
 .padding-3 {
-  padding: 4px;
+  padding: 3px;
 }
 
 .padding-5 {
@@ -119,12 +117,18 @@ main {
   margin-left: 6%;
 }
 
+.welcome-inside {
+  padding: 30px;
+}
+
 /* IMG AND SIDE BLOBS */
 .image {
   width: 50vw;
   border-radius: 20px;
   margin-left: 21%;
   margin-bottom: -50px;
+  z-index: -10;
+  position: relative;
 }
 
 .img-right {
@@ -142,15 +146,6 @@ main {
   border-radius: 20px;
   display: block;
   margin: auto;
-}
-
-.black-pop {
-  background-color: #2b2b2b;
-  color: #cacaca;
-  margin: 10px;
-  margin-left: 20px;
-  padding: 30px;
-  border-radius: 20px;
 }
 
 .background-image {
@@ -186,6 +181,30 @@ main {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.black-pop {
+  background-color: #2b2b2b;
+  color: #cacaca;
+  margin-right: 30px;
+  margin-left: 20px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.black-pop-side {
+  background-color: #2b2b2b;
+  color: #cacaca;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-bottom: -30px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.shadow {
+  box-shadow: 0 0 30px #2a2a2a;
+}
+
+/*YOGA CLASS*/
 #yoga-class {
   background: url(../images/yoga-class-pexels-cliff-booth-4056723.jpg) no-repeat
     center/cover;
@@ -200,23 +219,6 @@ main {
   flex-basis: 150px;
   flex-grow: 1;
   border: 10px solid #efefef;
-}
-
-.welcome-inside {
-  padding: 30px;
-}
-
-.black-pop-side {
-  background-color: #2b2b2b;
-  color: #cacaca;
-  margin: 20px;
-  margin-bottom: -30px;
-  padding: 30px;
-  border-radius: 20px;
-}
-
-.shadow {
-  box-shadow: 0 0 30px #2a2a2a;
 }
 
 /* TEXT PROPS*/
@@ -252,13 +254,12 @@ a {
 }
 
 /* FORM */
-/* Style inputs */
 input[type="text"],
 select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #9e9e9e;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -277,13 +278,17 @@ input[type="submit"]:hover {
 }
 
 .column {
-  float: left;
   width: 80%;
   margin-top: 6px;
   padding: 20px;
 }
 
-/* FLEX PROPS */
+/* FLEX PROPERTIES */
+.flex-member {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -356,14 +361,12 @@ footer {
   color: #ececec;
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   height: 30px;
-
 }
 
-/* BUTTONS */
-
+/* NAV BUTTONS */
 #button-1,
 #button-2,
 #button-3,
@@ -408,7 +411,7 @@ footer {
   header {
     height: 250px;
     padding-top: 150px;
-    margin-bottom: -50px;
+    margin-bottom: -30px;
   }
 
   nav {
@@ -491,6 +494,8 @@ footer {
   .image {
     width: 300px;
     border-radius: 20px;
+    z-index: 1;
+  position: relative;
   }
 
   #home {
@@ -520,22 +525,16 @@ footer {
   .welcome {
     width: 50vw;
     margin-top: -150px;
+    margin-left: 6%;
     padding: 50px;
-    margin-left: 0.4%;
+    margin-bottom: -30px;
+    z-index: -1;
   }
 
   .freew {
     width: 50vw;
     margin-top: -150px;
-    margin-left: -30px;
-    padding: 50px;
-    margin-bottom: -30px;
-  }
-
-  .freem {
-    width: 50vw;
-    margin-top: -150px;
-    margin-left: -40px;
+    margin-left: -5%;
     padding: 50px;
     margin-bottom: -30px;
     z-index: -1;
@@ -544,21 +543,30 @@ footer {
   .freey {
     width: 50vw;
     margin-top: -150px;
-    margin-left: -40px;
+    margin-left: 6%;
     padding: 50px;
     margin-bottom: -30px;
     z-index: -1;
   }
 
+  .freem {
+    width: 50vw;
+    margin-top: -150px;
+    margin-left: -6%;
+    padding: 50px;
+    margin-bottom: -30px;
+  }
+
   .black-pop-side {
-    width: 235px;
+    width: 240px;
     margin-top: 30px;
-    margin-left: -30px;
   }
 
   .black-pop {
     width: 240px;
     padding: 30px;
+    z-index: 1;
+    position: relative;
   }
 
   .black-pop-left {
@@ -567,7 +575,6 @@ footer {
     width: 250px;
     height: 300px;
     margin-top: 500px;
-    margin-left: 3%;
     padding: 30px;
     border-radius: 20px;
   }
@@ -575,35 +582,6 @@ footer {
   .side-image {
     margin-top: 10px;
     z-index: 6;
-  }
-
-  .image {
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-
-  .img-left {
-    margin-left: -30px;
-  }
-
-  .h2-right {
-    text-align: right;
-    font-size: 3em;
-    margin-bottom: 50px;
-    margin-top: -5px;
-  }
-
-  .h2-left {
-    text-align: left;
-    font-size: 3em;
-    margin-bottom: 50px;
-    margin-top: -5px;
-  }
-
-  .flex-end {
-    align-items: end;
   }
 
   .black-inside {
@@ -629,6 +607,31 @@ footer {
     position: absolute;
   }
 
+  .h2-right {
+    text-align: right;
+    font-size: 3em;
+    margin-bottom: 50px;
+    margin-top: -5px;
+  }
+
+  .h2-left {
+    text-align: left;
+    font-size: 3em;
+    margin-bottom: 50px;
+    margin-top: -5px;
+  }
+
+  .image {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .flex-end {
+    align-items: end;
+  }
+
   .parallax-1,
   .parallax-2,
   .parallax-3 {
@@ -638,7 +641,7 @@ footer {
   }
 }
 
-/* Media query: tablets and larger (2000px and up) */
+/* Media query: laptops and desktops (2000px and up) */
 @media screen and (min-width: 2000px) {
   #logo {
     font-size: 500%;
