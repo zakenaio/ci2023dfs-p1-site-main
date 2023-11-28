@@ -226,7 +226,7 @@ main {
 .h2-right,
 .h2-left {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
@@ -620,14 +620,14 @@ footer {
 
   .h2-right {
     text-align: right;
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 50px;
     margin-top: -5px;
   }
 
   .h2-left {
     text-align: left;
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 50px;
     margin-top: -5px;
   }
