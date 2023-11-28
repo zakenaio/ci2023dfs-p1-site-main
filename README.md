@@ -3,19 +3,19 @@
 My project for CI-FSD-2023-no. 
 I wanted to challange the regular gym sites with its rough and hard edges and play with a more rounded and inviting feel. By using muted, earth colours and only slight deviations in colour palette i try to embrace the visitor. 
 
-![Screenshots Responsive Design](../assets/images/responsive.png "Screenshots Responsive Design")
+![Screenshots Responsive Design](/ci2023dfs-p1-site-main/assets/images/Wireframe.png "Screenshots Responsive Design")
 
 ### The Header
 --------------------------------------------------------------------------------
 
 ### Lighthouse Score
 
-![Lighthouse](../assets/images/lighthouse.png.png "Lighthouse Scores")
+![Lighthouse](/ci2023dfs-p1-site-main/assets/images/lighthouse.png.png "Lighthouse Scores")
 
 
 
 ### Wireframe 
-![Wireframe](../assets/images/wireframe.png "Wireframe")
+![Wireframe](/ci2023dfs-p1-site-main/images/Wireframe.png "Wireframe")
 
 #### Tools
 --------------------------------------------------------------------------------
