@@ -8,6 +8,10 @@ I wanted to challange the regular gym sites with its rough and hard edges and pl
 ### The Header
 --------------------------------------------------------------------------------
 
+### Lighthouse Score
+
+![Lighthouse](assets/images/lighthouse.png.png "Lighthouse Scores")
+
 
 
 ### Wireframe 
@@ -35,6 +39,9 @@ All the images are from  [Pexels](https://www.pexels.com)
 | PARALLAX | <https://www.w3schools.com/howto/howto_css_parallax.asp> |
 | IMAGES | https://www.pexels.com/ |
 | FORM | <https://www.w3schools.com/howto/howto_css_contact_section.asp> |
+
+### BUGS 
+I found that my main sticks out behind the right scrollbar, my only solution was to just hide it with overflow-x hidden. Really bad hack but it serves its purpose.  
 
 ### DEPLOYMENT
 --------------------------------------------------------------------------------
