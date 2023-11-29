@@ -1,4 +1,4 @@
-# Miller Musle Mansion.
+# Miller Muscle Mansion.
 
 My project for CI-FSD-2023-no. 
 I wanted to challange the regular gym sites with its rough and hard edges and play with a more rounded and inviting feel. 
@@ -6,7 +6,8 @@ By using muted, earth colours and only slight deviations in colour palette to em
 
 The purpose was to make fitness more appealing to everyone, without being to aggressive.
 
-![Screenshots Responsive Design](assets/images/reponsive.png "Screenshots Responsive Design")
+
+![Screenshots Responsive Design](assets/images/responsive.png "Screenshots Responsive Design")
 
 ### Header
 --------------------------------------------------------------------------------
@@ -27,6 +28,9 @@ There should be no doubt to where you are on the site. A nod back to the choice 
 
 Some images and important information got its own sections, to left or right slightly over the main content sections for a 
 better overview. Some images hides on mobile to make it less cluttred so it wont spam the visitor with images. 
+
+Converted all the images to webp and changed sizes to lower loading times. 
+
 
 
 
