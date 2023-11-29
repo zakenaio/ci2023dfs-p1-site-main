@@ -10,8 +10,7 @@ header {
   height: 200px;
   color: #ffffff;
   text-transform: uppercase;
-  background: url("../images/header-pexels-victor-freitas-949126.webp")
-    no-repeat center/cover;
+  background: url("../images/header-pexels-victor-freitas-949126.webp") no-repeat center/cover;
 }
 
 #logo {
@@ -49,28 +48,37 @@ main {
   justify-content: center;
 }
 
-.color-h {
+/* SEGMENT BG COLOURS */
+.bg-color-home {
   background-color: rgb(213, 213, 213);
   z-index: 5;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-.color-f {
+.bg-color-equip {
   background-color: rgb(78, 78, 70);
   z-index: 5;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-.color-y {
+.bg-color-yoga {
   background-color: rgb(154, 156, 140);
   z-index: 5;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-.color-m {
+.bg-color-member {
   background-color: rgb(146, 137, 119);
   z-index: 5;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .padding-3 {
@@ -82,51 +90,50 @@ main {
 }
 
 /* MAIN CONTENT BLOBS */
-.welcome {
+.welcome-rounded {
   background-color: #efefef;
   border-radius: 20px;
   width: 80vw;
   margin-top: -40px;
   margin-bottom: -30px;
-  margin-left: 5%;
+ 
 }
 
-.freew {
+.equipment-rounded {
   background-color: #d2d2d2;
   border-radius: 20px;
   width: 80vw;
   margin-top: -20px;
   margin-bottom: -30px;
-  margin-left: 5%;
 }
 
-.freey {
+.yoga-rounded {
   background-color: #efefef;
   border-radius: 20px;
   width: 80vw;
   margin-top: -40px;
   margin-bottom: -30px;
-  margin-left: 5%;
 }
 
-.freem {
+.member-rounded {
   background-color: #ececec;
   border-radius: 20px;
   width: 80vw;
   margin-top: -20px;
   margin-bottom: -30px;
-  margin-left: 5%;
 }
 
-.welcome-inside {
+.content-padding {
   padding: 30px;
 }
 
-/* IMG AND SIDE BLOBS */
+/* IMG BLOBS */
 .image {
   width: 50vw;
+  object-fit: cover; 
+  object-position: -20% 0;
   border-radius: 20px;
-  margin-left: 23%;
+  margin-left: 20%;
   margin-bottom: -20%;
   z-index: -10;
   position: relative;
@@ -136,7 +143,7 @@ main {
   margin-top: -40px;
 }
 
-.image-inside {
+.image-inside-h {
   width: 90%;
   border-radius: 20px;
   margin: 10px;
@@ -160,31 +167,24 @@ main {
   z-index: -1;
 }
 
-.black-pop {
+/* DARK BLOBS */
+.black-blob {
   background-color: #2b2b2b;
   color: #cacaca;
-  margin-right: 30px;
-  margin-left: 20px;
   padding: 30px;
   border-radius: 20px;
 }
 
-.black-pop-side {
+.black-blob-side {
   background-color: #2b2b2b;
   color: #cacaca;
-  margin-right: 30px;
-  margin-left: 20px;
   margin-bottom: -30px;
   padding: 30px;
   border-radius: 20px;
 }
 
-.text {
-  text-align: center;
-  padding: 10px;
-}
-
-.black-inside {
+/* EQUIPMENT TEXT-IMG-BLOB */
+.black-inside-equip {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -193,7 +193,7 @@ main {
   width: 90%;
 }
 
-.text-inside {
+.text-blob-equip {
   position: absolute;
   top: 0;
   left: 0;
@@ -206,16 +206,21 @@ main {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
 .shadow {
   box-shadow: 0 0 20px #2a2a2a;
 }
 
 /*YOGA CLASS*/
 #yoga-class {
-  background: url(../images/yoga-class-pexels-cliff-booth-4056723.webp)
-    no-repeat center/cover;
+  background: url(../images/yoga-class-pexels-cliff-booth-4056723.webp) no-repeat center/cover;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 #yoga-class div {
@@ -237,6 +242,10 @@ main {
 
 h1 {
   margin: -10px;
+}
+
+h3 {
+  font-size: 1em;
 }
 
 em {
@@ -321,6 +330,10 @@ input[type="submit"]:hover {
   justify-content: center;
 }
 
+.flex-end {
+  align-items: end;
+}
+
 .hide {
   display: none;
 }
@@ -369,7 +382,7 @@ hr.red-solid {
 /* FOOTER */
 footer {
   background-color: #3a3a3a;
-  color: #ececec;
+  color: #9a9999;
   display: flex;
   justify-content: center;
   padding-top: 20px;
@@ -423,21 +436,22 @@ footer {
   right: 10px;
   z-index: 99;
   border: none;
-  background-color: rgba(0, 0, 0, 0.245); 
-  color: rgb(255, 255, 255); 
-  padding: 12px; 
-  border-radius: 15px; 
-  font-size: 16px; 
-  
+  background-color: rgba(0, 0, 0, 0.245);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 15px;
+  font-size: 16px;
+
 }
 
 #topButton:hover {
-  background-color: #2a2a2a; 
+  background-color: #2a2a2a;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-  /* Header */
+
+  /* HEADER */
   header {
     height: 250px;
     padding-top: 150px;
@@ -456,16 +470,21 @@ footer {
     margin-bottom: -5px;
   }
 
+  h3 {
+    font-size: 1.3em;
+  }
+
+  /* EQUIPMENT TEXT-IMG-BLOB */
   .text {
     text-align: center;
     padding: 80px;
   }
 
-  .text-inside {
+  .text-blob-equip {
     font-size: 1em;
   }
 
-  .black-inside {
+  .black-inside-equip {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -474,6 +493,7 @@ footer {
     width: 95%;
   }
 
+  /* IMG BLOBS */
   .trainer-img {
     position: absolute;
     top: -9600px;
@@ -486,7 +506,8 @@ footer {
 
 /* Media query: tablets and larger (1040px and up) */
 @media screen and (min-width: 1040px) {
-  /* Header */
+
+  /* HEADER */
   header {
     height: 500px;
   }
@@ -520,18 +541,7 @@ footer {
     font-size: 60px;
   }
 
-  /* Main content */
-  .image {
-    width: 300px;
-    border-radius: 20px;
-    z-index: 1;
-    position: relative;
-  }
-
-  #home {
-    display: flex;
-  }
-
+  /* MAIN CONTENT */
   #welcome {
     display: flex;
   }
@@ -540,7 +550,7 @@ footer {
     display: flex;
   }
 
-  #free {
+  #equipment {
     display: flex;
   }
 
@@ -548,11 +558,8 @@ footer {
     display: flex;
   }
 
-  .hide {
-    display: block;
-  }
-
-  .welcome {
+  /* MAIN CONTENT BLOBS */
+  .welcome-rounded {
     width: 50vw;
     margin-top: -150px;
     margin-left: 6%;
@@ -561,7 +568,7 @@ footer {
     z-index: -1;
   }
 
-  .freew {
+  .equipment-rounded {
     width: 50vw;
     margin-top: -150px;
     margin-left: -37px;
@@ -570,7 +577,7 @@ footer {
     z-index: -1;
   }
 
-  .freey {
+  .yoga-rounded {
     width: 50vw;
     margin-top: -150px;
     margin-left: 6%;
@@ -579,7 +586,7 @@ footer {
     z-index: -1;
   }
 
-  .freem {
+  .member-rounded {
     width: 50vw;
     margin-top: -150px;
     margin-left: -60px;
@@ -587,60 +594,7 @@ footer {
     margin-bottom: -30px;
   }
 
-  .black-pop-side {
-    width: 240px;
-    margin-top: 30px;
-  }
-
-  .black-pop {
-    width: 240px;
-    padding: 30px;
-    z-index: 1;
-    position: relative;
-  }
-
-  .black-pop-left {
-    background-color: #2b2b2b;
-    color: #cacaca;
-    width: 250px;
-    height: 300px;
-    margin-top: 500px;
-    padding: 30px;
-    border-radius: 20px;
-  }
-
-  .side-image {
-    margin-top: 10px;
-    z-index: 6;
-  }
-
-  .side-image-member {
-    margin-top: 10px;
-  }
-
-  .black-inside {
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    margin: 20px;
-    height: 300px;
-    width: 100%;
-  }
-
-  .trainer-img {
-    position: absolute;
-    top: -9600px;
-    left: -9999px;
-    right: -9999px;
-    bottom: -9999px;
-    margin: auto;
-  }
-
-  .text-inside {
-    font-size: large;
-    position: absolute;
-  }
-
+  /* TEXT */
   .h2-right {
     text-align: right;
     font-size: 4em;
@@ -655,6 +609,29 @@ footer {
     margin-top: -5px;
   }
 
+  h3 {
+    font-size: 1em;
+  }
+
+   /* IMG BLOBS */
+  .side-image {
+    margin-top: 10px;
+    z-index: 6;
+  }
+
+  .side-image-member {
+    margin-top: 10px;
+  }
+
+  .trainer-img {
+    position: absolute;
+    top: -9600px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
+  }
+
   .image {
     border-radius: 20px;
     margin-bottom: 20px;
@@ -662,10 +639,69 @@ footer {
     margin-top: 10px;
   }
 
-  .flex-end {
-    align-items: end;
+  /* DARK BLOBS */
+  .black-blob-side {
+    width: 240px;
+    margin-top: 30px;
+    margin-right: 30px;
+  margin-left: 20px;
   }
 
+  .black-blob {
+    width: 240px;
+    padding: 30px;
+    z-index: 1;
+    margin-right: 30px;
+  margin-left: 20px;
+    position: relative;
+  }
+
+  .black-blob-left {
+    background-color: #2b2b2b;
+    color: #cacaca;
+    width: 250px;
+    height: 300px;
+    margin-top: 500px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  /* EQUIPMENT TEXT-IMAGE BLOB*/
+  .black-inside-equip {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+    height: 300px;
+    width: 100%;
+  }
+
+  .text-blob-equip {
+    font-size: large;
+    position: absolute;
+  }
+
+  .image {
+    width: 300px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+  }
+
+  /*YOGA CLASS*/
+  #yoga-class {
+    margin-bottom: -0px;
+  }
+
+  .column {
+    margin-bottom: -40px;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  /* PARALLAX */
   .parallax-1,
   .parallax-2,
   .parallax-3 {
@@ -677,6 +713,9 @@ footer {
 
 /* Media query: laptops and desktops (2000px and up) */
 @media screen and (min-width: 2000px) {
+
+  /* HEADER */
+
   #logo {
     font-size: 500%;
     margin-right: 22%;
@@ -693,21 +732,23 @@ footer {
     padding-right: 22%;
   }
 
-  .welcome {
+  /* MAIN CONTENT BLOBS */
+  .welcome-rounded {
     width: 40vw;
   }
 
-  .freew {
+  .equipment-rounded {
     width: 40vw;
   }
 
-  .freem {
+  .yoga-rounded {
     width: 40vw;
   }
 
-  .freey {
+  .member-rounded {
     width: 40vw;
   }
+
   .trainer-img {
     position: absolute;
     top: -9500px;
