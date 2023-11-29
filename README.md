@@ -59,7 +59,7 @@ Illustror for the wireframe.
 ### REFS
 --------------------------------------------------------------------------------
 W3 School have been a real goldmine. 
-I have used, and modifed code for my buttons by adding backdround, and hover slide colors. 
+I have used, and modifed code for my buttons by adding background colour, and hover slide colours. 
 
 Top button on scroll also from w3s
 
