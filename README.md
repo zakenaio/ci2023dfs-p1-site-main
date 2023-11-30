@@ -35,11 +35,11 @@ Converted all the images to webp and changed sizes to lower loading times.
 #### Lighthouse Score
 Desktop
 
-![Lighthouse](assets/images/lighthouse-desktop.png "Lighthouse Scores desktop")
+![Lighthouse](resources/lighthouse-desktop.png "Lighthouse Scores desktop")
 
 Mobile
 
-![Lighthouse](assets/images/lighthouse-mobile.png "Lighthouse Scores mobile")
+![Lighthouse](resources/lighthouse-mobile.png "Lighthouse Scores mobile")
 
 
 #### Wireframe 
@@ -48,7 +48,7 @@ I struggled with the right feel, so i made one single section for
 every part, instead of having h2 in one, content in one underneath. 
 I believe it was the right choice, simpler easier on the eyes. 
 
-![Wireframe](assets/images/Wireframe.png "Wireframe")
+![Wireframe](resources/wireframe.png "Wireframe")
 
 ### Tools
 --------------------------------------------------------------------------------
