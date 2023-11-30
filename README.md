@@ -19,8 +19,7 @@ Easy to understand navigation, with slight high lighting on hover for visual fee
 
 ### Sections
 --------------------------------------------------------------------------------
-Every section got its own background colour for an easy overview. Rounded borders on content sections 
-with a slight shadow do make it stand a bit more without being distracting from the the content. 
+Every section got its own background colour for an easy overview. 
 
 Dividing each section with a parallaxed image to make sure every section got its on spotlight. 
 There should be no doubt to where you are on the site. A nod back to the choice of different colors. 
@@ -45,7 +44,7 @@ Mobile
 
 #### Wireframe 
 My initial idea deviates slightly from the final result, but its close. 
-I struggled with the right feel, so i made a one single section for 
+I struggled with the right feel, so i made one single section for 
 every part, instead of having h2 in one, content in one underneath. 
 I believe it was the right choice, simpler easier on the eyes. 
 
