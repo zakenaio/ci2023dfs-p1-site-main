@@ -4,8 +4,7 @@ body {
   margin: 0;
   color: #3a3a3a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  
+    "Lucida Sans", Arial, sans-serif; 
 }
 
 header {
@@ -93,6 +92,7 @@ main {
   margin-bottom: -30px;
  
 }
+
 
 .equipment-rounded {
   background-color: #d2d2d2;
