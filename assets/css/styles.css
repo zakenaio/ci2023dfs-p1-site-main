@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  margin-left: -1.5%;
   color: #3a3a3a;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -82,14 +81,6 @@ main {
   justify-content: center;
 }
 
-.padding-3 {
-  padding: 3px;
-}
-
-.padding-5 {
-  padding: 5px;
-}
-
 /* MAIN CONTENT BLOBS */
 .welcome-rounded {
   background-color: #efefef;
@@ -161,7 +152,7 @@ main {
   margin: auto;
 }
 
-.background-image {
+#.background-image {
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -234,15 +225,15 @@ main {
 }
 
 /* TEXT PROPS*/
+h1 {
+  margin: -10px;
+}
+
 .h2-right,
 .h2-left {
   text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
-}
-
-h1 {
-  margin: -10px;
 }
 
 h3 {
@@ -735,11 +726,11 @@ footer {
 
   /* MAIN CONTENT BLOBS */
   .welcome-rounded {
-    width: 40vw;
+    width: 42vw;
   }
 
   .equipment-rounded {
-    width: 40vw;
+    width: 42vw;
   }
 
   .yoga-rounded {
