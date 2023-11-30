@@ -55,7 +55,7 @@ I believe it was the right choice, simpler easier on the eyes.
 Mainly VS code, i found Codeanywhere to be slow, and unreliable.
 Illustror for the wireframe. 
 
-### REFS
+### CREDITS
 --------------------------------------------------------------------------------
 W3 School have been a real goldmine. 
 I have used, and modifed code for my buttons by adding background colour, and hover slide colours. 
@@ -64,7 +64,7 @@ Top button on scroll also from w3s
 
 Yoga events are a version of the one from Code Institutes [Love Running project](https://zakenaio.github.io/Love-Running-CI-2023-fsd-nov-main/). 
 
-All the images are from  [Pexels](https://www.pexels.com) 
+All the images are from [Pexels](https://www.pexels.com) 
 
 ### LINKS 
 
