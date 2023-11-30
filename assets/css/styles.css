@@ -41,6 +41,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .home {
@@ -204,7 +205,7 @@ main {
 }
 
 .shadow {
-  #box-shadow: 0 0 20px #2a2a2a;
+  box-shadow: 0 0 20px rgba(42, 42, 42, 0.23);
 }
 
 /*YOGA CLASS*/
