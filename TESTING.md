@@ -42,13 +42,13 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Desktop 1440p | ![screenshot](resources//responsive-desktop-1440.png) | Works as expected |
 
 
-### Lighthouse Score
+## Lighthouse Audit
 
-Desktop
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-![Lighthouse](resources/lighthouse-desktop.png "Lighthouse Scores desktop")
 
-Mobile
+| Desktop | Mobile |
+| --- | --- |
+|![Lighthouse](resources/lighthouse-desktop.png "Lighthouse Scores desktop")|![Lighthouse](resources/lighthouse-mobile.png "Lighthouse Scores mobile")|
 
-![Lighthouse](resources/lighthouse-mobile.png "Lighthouse Scores mobile")
 

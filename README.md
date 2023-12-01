@@ -100,7 +100,7 @@ Content sections overlap the parallaxed section deviders for a cohesive feel.
 
 ![Side Overlay](resources/over-blobs.png)
 
-Side images and content gopt their separate sections slightly ontop of the main content with the same rounded corners to keep the feel. 
+Side images and content got their separate sections slightly ontop of the main content with the same rounded corners to keep the feel. 
 
 
 ## Tools & Technologies Used
