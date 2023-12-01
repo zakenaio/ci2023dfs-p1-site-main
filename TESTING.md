@@ -20,13 +20,13 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Windows 11 | Edge | Brave | Notes |
+| Windows 11 | Edge | Brave |  |
 | --- | --- | --- | --- |
-| |![Win 11 Edge](resources/comp-edge.png "Win 11 Edge") |![Win 11 Brave](resources/comp-brave.png "Win 11 Brave") |  Works as expected |
-| Linux (EndevourOS) | FireFox | Brave |   |
-| |![Linux Firefox](resources/comp-lnx-ff.png "Linux Firefox")|![Linux Brave](resources/comp-lnx-brave.png "Linux Brave") | Works as expected |
-| MacOS Somoa | Safari | Brave |  |
-| |![MacOS Safari](resources/comp-mac-safari.png "Linux Firefox")|![MacOS Brave](resources/comp-mac-brave.png "Linux Brave") | Works as expected |
+| |![Win 11 Edge](resources/comp-edge.png "Win 11 Edge")|![Win 11 Brave](resources/comp-brave.png "Win 11 Brave")|   |
+| Linux (EndevourOS) | FireFox | Brave | Thorium |
+| |![Linux Firefox](resources/comp-lnx-ff.png "Linux Firefox")|![Linux Brave](resources/comp-lnx-brave.png "Linux Brave")|![Linux Thorium](resources/comp-lnx-thorium.png "Linux Thoium") |
+| MacOS Somoa | Safari | Brave | Firefox |
+| |![MacOS Safari](resources/comp-mac-safari.png "Linux Firefox")|![MacOS Brave](resources/comp-mac-brave.png "Linux Brave")| ![MacOS Firefox](resources/comp-mac-firefox.png "Linux Firefox")  |
 
 
 ## Responsiveness
