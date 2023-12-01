@@ -26,10 +26,12 @@ I wanted muted, earth colors for
 - `#009FE3` used for third highlights.
 
 
+
 - `#3a3a3a` used for navigation background.
 - `#4A4A4F` used for navigation text.
 - `#009FE3` used for navigation border.
 - `#009FE3` used for navigation hover.
+
 
 
 - `#D5D5D5` used for home/welcome background.
@@ -40,6 +42,7 @@ I wanted muted, earth colors for
 - `#efefef` used for yoga rounded section.
 - `#928977` used for member background.
 - `#ececec` used for member rounded section.
+
 
 
 - `#2b2b2b` used for dark blobs.

@@ -24,7 +24,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- | --- |
 | |![Win 11 Edge](resources/comp-edge.png "Win 11 Edge")|![Win 11 Brave](resources/comp-brave.png "Win 11 Brave")|   |
 | Linux (EndevourOS) | FireFox | Brave | Thorium |
-| |![Linux Firefox](resources/comp-lnx-firefox.png "Linux Firefox")|![Linux Brave](resources/comp-lnx-brave.png "Linux Brave")|![Linux Thorium](resources/comp-lnx-thorium.png "Linux Thoium") |
+|Here shows that Linux lacks the default font and reverts to Arial |![Linux Firefox](resources/comp-lnx-firefox.png "Linux Firefox")|![Linux Brave](resources/comp-lnx-brave.png "Linux Brave")|![Linux Thorium](resources/comp-lnx-thorium.png "Linux Thoium") |
 | MacOS Sonoma | Safari | Brave | Firefox |
 | |![MacOS Safari](resources/comp-mac-safari.png "Linux Firefox")|![MacOS Brave](resources/comp-mac-brave.png "Linux Brave")| ![MacOS Firefox](resources/comp-mac-firefox.png "Linux Firefox")  |
 
