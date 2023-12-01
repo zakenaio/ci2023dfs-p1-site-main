@@ -29,7 +29,7 @@ nav {
 }
 
 nav a {
-  border: 1px solid rgb(117, 117, 117);
+  border: 1px solid #757575;
   color: #ffffff;
   display: inline-block;
   padding: 5px 5px;
@@ -52,7 +52,7 @@ main {
 
 /* SEGMENT BG COLOURS */
 .bg-color-home {
-  background-color: rgb(213, 213, 213);
+  background-color: #D5D5D5;
   z-index: 5;
   width: 100%;
   display: flex;
@@ -60,7 +60,7 @@ main {
 }
 
 .bg-color-equip {
-  background-color: rgb(78, 78, 70);
+  background-color: #4E4E46;
   z-index: 5;
   width: 100%;
   display: flex;
@@ -68,7 +68,7 @@ main {
 }
 
 .bg-color-yoga {
-  background-color: rgb(154, 156, 140);
+  background-color: #9A9C8C;
   z-index: 5;
   width: 100%;
   display: flex;
@@ -76,7 +76,7 @@ main {
 }
 
 .bg-color-member {
-  background-color: rgb(146, 137, 119);
+  background-color: #928977;
   z-index: 5;
   width: 100%;
   display: flex;
@@ -245,23 +245,18 @@ h3 {
 
 em {
   font-weight: 600;
-  color: rgb(144, 43, 43);
+  color: #902b2b;
 }
 
 .yoga-em {
   font-weight: 600;
   font-size: 1.1em;
-  color: rgb(51, 51, 51);
+  color: #333333;
 }
 
 .trainer-em {
   font-weight: 600;
-  color: rgb(166, 102, 102);
-}
-
-a {
-  text-decoration: none;
-  color: rgb(144, 43, 43);
+  color: #a66678;
 }
 
 .hidden {
@@ -282,7 +277,7 @@ select {
 
 input[type="submit"] {
   background-color: rgba(185, 185, 185, 0.3);
-  color: rgb(144, 43, 43);
+  color: #902b2b;
   border: 1px solid rgb(117, 117, 117);
   padding: 12px 20px;
   cursor: pointer;
@@ -336,12 +331,12 @@ input[type="submit"]:hover {
 
 /* HR LINES */
 hr {
-  border-top: 2px solid #2a2a2a;
+  border-top: 2px solid #3a3a3a;
   margin-bottom: 30px;
 }
 
 hr.red-solid {
-  border-top: 2px solid rgb(144, 43, 43);
+  border-top: 2px solid #902b2b;
   margin-bottom: 30px;
 }
 
