@@ -1,7 +1,4 @@
-# [CI2023DFS P1 SITE MAIN](https://zakenaio.github.io/ci2023dfs-p1-site-main)
-
-## MILLER MUSCLE MANSION
----
+# [MILLER MUSCLE MANSION ](https://zakenaio.github.io/ci2023dfs-p1-site-main)
 
 I wanted to challange the regular gym sites with its rough and hard edges and play with a more rounded and inviting feel. 
 By using muted, earth colours and only slight deviations in colour palette to embrace the visitor. 
@@ -28,10 +25,12 @@ I wanted muted, earth colors for
 - `#009FE3` used for secondary highlights.
 - `#009FE3` used for third highlights.
 
+
 - `#3a3a3a` used for navigation background.
 - `#4A4A4F` used for navigation text.
 - `#009FE3` used for navigation border.
 - `#009FE3` used for navigation hover.
+
 
 - `#D5D5D5` used for home/welcome background.
 - `#efefef` used for home/welcome rounded section.
@@ -42,12 +41,13 @@ I wanted muted, earth colors for
 - `#928977` used for member background.
 - `#ececec` used for member rounded section.
 
+
 - `#2b2b2b` used for dark blobs.
 - `rgba 126, 128, 114, 0.6` used for overlay on yoga events.
 
 ### Typography
 
-The fonts are :  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif.
+**Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif.**
 
 Trebuchet MS Trebuchet MS has a modern and elegant appearance, making it suitable for contemporary websites. Readable at Small Sizes: It maintains readability even at smaller font sizes, ensuring a positive user experience on various devices.
 
@@ -58,41 +58,34 @@ I struggled with the right feel, so i made one single section for
 every part, instead of having h2 in one, content in one underneath. 
 I believe it was the right choice, simpler, easier on the eyes. 
 
-In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-
-**IMPORTANT**! **IMPORTANT**! **IMPORTANT**!
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframe < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframe </summary>
 
 ![Wireframe Mobile](resources/wireframe-mobile.png "Wireframe-mobile")
 
-< / details >
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframe < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframe </summary>
 
 ![Wireframe Tablet](resources/wireframe-mobile.png "Wireframe-tablet")
 
-< / details >
+</details>
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframe < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframe </summary>
 
 ![Wireframe Tablet](resources/wireframe-desktop.png "Wireframe-tablet")
 
-< / details >
+</details>
+
 
 ## Features
 
