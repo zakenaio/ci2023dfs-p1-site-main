@@ -6,7 +6,7 @@ By using muted, earth colours and only slight deviations in colour palette to em
 
 The purpose was to make fitness more appealing to everyone, without being to aggressive.
 
-![Screenshots Responsive Design](assets/images/responsive.png "Screenshots Responsive Design")
+![Screenshots Responsive Design](resources/responsive.png "Screenshots Responsive Design")
 
 ### Header
 --------------------------------------------------------------------------------
