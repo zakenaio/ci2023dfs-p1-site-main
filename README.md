@@ -89,14 +89,14 @@ I believe it was the right choice, simpler, easier on the eyes.
 
 ## Features
 
-![Semi-nav](documentation/nav-transp.png)
+![Semi-nav](resources/nav-transp.png)
 Semi-transparent nav should stand out, without being to intrusive. 
 
-![Rounded Overlay](documentation/rounded-overlay.png)
-![Rounded Overlay](documentation/cohesive.png)
+![Rounded Overlay](resources/rounded-overlay.png)
+![Rounded Overlay](resources/cohesive.png)
 Content sections overlap the parallaxed section deviders for a cohesive feel.  
 
-![Side Overlay](documentation/over-blobs.png)
+![Side Overlay](resources/over-blobs.png)
 Side images and content gopt their separate sections slightly ontop of the main content with the same rounded corners to keep the feel. 
 
 ## Tools & Technologies Used
