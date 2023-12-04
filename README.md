@@ -1,6 +1,5 @@
 # [MILLER MUSCLE MANSION ](https://zakenaio.github.io/ci2023dfs-p1-site-main)
 
-
 I aimed to disrupt the typical gym website aesthetics characterized by harsh edges, opting for a softer, rounded, and more welcoming vibe. Employing muted earth tones and subtle shifts in the color palette, the goal was to create an environment that embraces visitors. This approach sought to redefine fitness as inclusive and less intimidating, making it more appealing to a broader audience by avoiding excessive aggression in design.
 
 
@@ -9,44 +8,37 @@ I aimed to disrupt the typical gym website aesthetics characterized by harsh edg
 
 ## UX
 
-
 I chose a streamlined one-page structure for the website, positioning the navigation under the logo/header at the top. To ensure adaptability across resolutions, the logo and navigation dynamically adjust in both size and position. On mobile devices, they center over the content for a clean and accessible layout, while on desktops, they scale slightly larger and shift to the right for optimized visibility and user experience. This responsive design approach aims to provide a seamless and user-friendly interface, accommodating various devices and screen sizes.
 
 
-### Colour Scheme
+## Colour Scheme
 ![Colour Schemes](resources/colours.png "Colour Schemes")
 
-I wanted muted, earth colors for 
+The color choices were carefully selected to create a cohesive and visually appealing website design:
 
-- `#3a3a3a` used for primary text.
-- `#4A4A4F` used for primaty highlight.
-- `#009FE3` used for secondary highlights.
-- `#009FE3` used for third highlights.
+#### Text and Highlights:
+- `#3a3a3a` for primary text ensures a readable and balanced contrast against the background.
+- `#4A4A4F` serves as the primary highlight, providing a subtle yet distinct emphasis.
+- `#009FE3` `#009FE3` for secondary and tertiary highlights, respectively, maintain a consistent and vibrant color scheme.
 
+#### Navigation:
+- `#3a3a3a` as the background provides a neutral base for navigation, ensuring readability.
+- `#4A4A4F` for navigation text maintains a clear contrast against the background.
+- `#009FE3` for navigation border and hover effect adds a dynamic and engaging element.
 
-
-- `#3a3a3a` used for navigation background.
-- `#4A4A4F` used for navigation text.
-- `#009FE3` used for navigation border.
-- `#009FE3` used for navigation hover.
-
-
-
-- `#D5D5D5` used for home/welcome background.
-- `#efefef` used for home/welcome rounded section.
-- `#4E4E4E` used for equipment background.
-- `#d2d2d2` used for qeuipment rounded section.
+#### Sections:
+- `#D5D5D5` for the home/welcome background creates a welcoming and neutral atmosphere.
+- `#efefef` for rounded sections in the home/welcome and yoga sections adds a touch of softness and continuity.
+- `#4E4E4E` or equipment background and `#d2d2d2` for rounded sections convey a balanced and professional aesthetic.
 - `#9A9C8C` used for yoga background.
-- `#efefef` used for yoga rounded section.
-- `#928977` used for member background.
-- `#ececec` used for member rounded section.
+- `#928977` for the member background and `#ececec` for the rounded section maintain a warm and inviting feel.
+
+#### Special Elements:
+- `#2b2b2b` for dark blobs adds a bold and contrasting visual element.
+- `rgba 126, 128, 114, 0.6` as an overlay on yoga events creates a subtle and immersive effect, enhancing the overall visual appeal.
 
 
-
-- `#2b2b2b` used for dark blobs.
-- `rgba 126, 128, 114, 0.6` used for overlay on yoga events.
-
-### Typography
+## Typography
 
 **Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif.**
 
@@ -115,8 +107,8 @@ By placing side images and content in separate sections slightly above the main 
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 
-### Media
-
+## Media
+Links to all the images used from Pexels. 
 Header 
 [Header image](https://www.pexels.com/photo/person-holding-black-and-silver-steel-barbell-photography-949126/ "Header image from Pexels")
 
