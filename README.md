@@ -1,18 +1,16 @@
 # [MILLER MUSCLE MANSION ](https://zakenaio.github.io/ci2023dfs-p1-site-main)
 
-I wanted to challange the regular gym sites with its rough and hard edges and play with a more rounded and inviting feel. 
-By using muted, earth colours and only slight deviations in colour palette to embrace the visitor. 
 
-The purpose was to make fitness more appealing to everyone, without being to aggressive.
+I aimed to disrupt the typical gym website aesthetics characterized by harsh edges, opting for a softer, rounded, and more welcoming vibe. Employing muted earth tones and subtle shifts in the color palette, the goal was to create an environment that embraces visitors. This approach sought to redefine fitness as inclusive and less intimidating, making it more appealing to a broader audience by avoiding excessive aggression in design.
+
 
 ![Screenshots Responsive Design](resources/responsive.png "Screenshots Responsive Design")
 
 
 ## UX
 
-I decided to go with a one page structure with nav at the top under the logo/header. 
-Logo and nav changes size and position dynamicly depending on resolution. 
-Center over content for mobile, and larger slightly to the right on desktop. 
+
+I chose a streamlined one-page structure for the website, positioning the navigation under the logo/header at the top. To ensure adaptability across resolutions, the logo and navigation dynamically adjust in both size and position. On mobile devices, they center over the content for a clean and accessible layout, while on desktops, they scale slightly larger and shift to the right for optimized visibility and user experience. This responsive design approach aims to provide a seamless and user-friendly interface, accommodating various devices and screen sizes.
 
 
 ### Colour Scheme
