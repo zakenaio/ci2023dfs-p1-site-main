@@ -119,7 +119,7 @@ Side images and content got their separate sections slightly ontop of the main c
 
 ### Media
 
-##Images from pexels. 
+## Images from pexels. 
 
 Header 
 [Header image](https://www.pexels.com/photo/person-holding-black-and-silver-steel-barbell-photography-949126/ "Header image from Pexels")
