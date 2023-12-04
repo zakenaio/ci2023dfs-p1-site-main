@@ -94,16 +94,16 @@ I believe it was the right choice, simpler, easier on the eyes.
 
 ![Semi-nav](resources/nav-transp.png)
 
-Semi-transparent nav should stand out, without being to intrusive. 
+Semi-transparent navigation buttons enhance user experience by providing subtle visibility without obstructing content, fostering an elegant design. This promotes intuitive navigation, maintaining a balance between aesthetics and functionality for a seamless browsing experience.
 
 ![Rounded Overlay](resources/rounded-overlay.png)
 ![Rounded Overlay](resources/cohesive.png)
 
-Content sections overlap the parallaxed section deviders for a cohesive feel.  
+Integrating rounded sections and overlapping content with section dividers on a website achieves a dynamic and modern design. The rounded sections soften visuals, adding an inviting feel, while overlapping content enhances continuity, guiding users through a seamless and engaging browsing experience. This cohesive approach elevates overall aesthetics and fosters positive user interaction.
 
 ![Side Overlay](resources/over-blobs.png)
 
-Side images and content got their separate sections slightly ontop of the main content with the same rounded corners to keep the feel. 
+By placing side images and content in separate sections slightly above the main content, all with rounded corners, we maintain a unified and modern design. This consistent look enhances user experience, providing a visually appealing and approachable website layout.
 
 
 ## Tools & Technologies Used
@@ -118,8 +118,6 @@ Side images and content got their separate sections slightly ontop of the main c
 - [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 
 ### Media
-
-## Images from pexels. 
 
 Header 
 [Header image](https://www.pexels.com/photo/person-holding-black-and-silver-steel-barbell-photography-949126/ "Header image from Pexels")
