@@ -122,41 +122,40 @@ Side images and content got their separate sections slightly ontop of the main c
 ##Images from pexels. 
 
 Header 
-![Header image](https://www.pexels.com/photo/person-holding-black-and-silver-steel-barbell-photography-949126/ "Header image from Pexels")
+[Header image](https://www.pexels.com/photo/person-holding-black-and-silver-steel-barbell-photography-949126/ "Header image from Pexels")
 
 Side image Welcome/Home
-![Side image Home](https://www.pexels.com/photo/man-climbing-on-rope-2468339/ "Side image from Pexels")
+[Side image Home](https://www.pexels.com/photo/man-climbing-on-rope-2468339/ "Side image from Pexels")
 
 Inside image Welcome/Home
-![Inside image Home](https://www.pexels.com/photo/man-sitting-on-the-floor-and-tying-his-shoes-4164651/  "Inside image from Pexels")
+[Inside image Home](https://www.pexels.com/photo/man-sitting-on-the-floor-and-tying-his-shoes-4164651/  "Inside image from Pexels")
 
 Equipment Section Parallax
-![Equipment section Parallax image](https://www.pexels.com/photo/man-and-woman-holding-battle-ropes-1552242/ "Equipment section parallax image from Pexels")
+[Equipment section Parallax image](https://www.pexels.com/photo/man-and-woman-holding-battle-ropes-1552242/ "Equipment section parallax image from Pexels")
 
 Side image Equipment
-![Side image Equipment](https://www.pexels.com/photo/person-taking-dumbbells-from-a-rack-4164849/ "Side image equipment from Pexels")
+[Side image Equipment](https://www.pexels.com/photo/person-taking-dumbbells-from-a-rack-4164849/ "Side image equipment from Pexels")
 
 Trainer image Equipment
-![Trainer image Equipment](https://www.pexels.com/photo/woman-holding-exercise-equipment-416809/ "Trainer image equipment from Pexels")
+[Trainer image Equipment](https://www.pexels.com/photo/woman-holding-exercise-equipment-416809/ "Trainer image equipment from Pexels")
 
 Yoga Section Parallax
-![Yoga Parallax section image](https://www.pexels.com/photo/woman-meditating-with-candles-and-incense-3822864/ "Yoga parallax section image from Pexels")
+[Yoga Parallax section image](https://www.pexels.com/photo/woman-meditating-with-candles-and-incense-3822864/ "Yoga parallax section image from Pexels")
 
 Side image Yoga
-![Side image Yoga](https://www.pexels.com/photo/woman-practicing-yoga-3822455/ "Side image yoga from Pexels")
+[Side image Yoga](https://www.pexels.com/photo/woman-practicing-yoga-3822455/ "Side image yoga from Pexels")
 
 Inside image Yoga
-![Inside image Yoga](https://www.pexels.com/photo/balance-blur-boulder-close-up-355863/ "Inside image yofa from Pexels")
+[Inside image Yoga](https://www.pexels.com/photo/balance-blur-boulder-close-up-355863/ "Inside image yofa from Pexels")
 
 Yoga Events image
-![Yoga Events image](https://www.pexels.com/sv-se/foto/halsosam-manniskor-avslappning-kvinnor-4056723/ "Yoga events image from Pexels")
+[Yoga Events image](https://www.pexels.com/sv-se/foto/halsosam-manniskor-avslappning-kvinnor-4056723/ "Yoga events image from Pexels")
 
 Member Section Parallax
-![Member Parallax section image](https://www.pexels.com/photo/fit-smiling-sportswoman-waiting-at-gym-reception-desk-3757941/ "Member section parallax image from Pexels")
+[Member Parallax section image](https://www.pexels.com/photo/fit-smiling-sportswoman-waiting-at-gym-reception-desk-3757941/ "Member section parallax image from Pexels")
 
 Side image Members
-![Side image Members](https://www.pexels.com/photo/wake-up-and-workout-slogan-on-light-box-among-sports-equipment-4397840/ "Side image members from Pexels")
-
+[Side image Members](https://www.pexels.com/photo/wake-up-and-workout-slogan-on-light-box-among-sports-equipment-4397840/ "Side image members from Pexels")
 
 
 ## Testing
