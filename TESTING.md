@@ -37,7 +37,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Mobile Pixel 7 Pro | ![screenshot](resources//responsive-mobile-p7p.png) | Works as expected |
 | Mobile Sony 1 ii | ![screenshot](resources//responsive-mobile-sony1ii.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](resources//responsive-tablet-dev.png) | Works as expected |
-| Tablet (Lenovo) | ![screenshot](resources//responsive-tablet-lenovo.png) | Works as expected |
+| Tablet (Samsung) | ![screenshot](resources//responsive-tablet-samsung.jpg) | Works as expected |
 | Desktop 1080p | ![screenshot](resources//responsive-desktop-1080.png) | Works as expected |
 | Desktop 1440p | ![screenshot](resources//responsive-desktop-1440.png) | Works as expected |
 
