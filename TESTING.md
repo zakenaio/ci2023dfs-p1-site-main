@@ -68,10 +68,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-
+Main page. 
 | Desktop | Mobile |
 | --- | --- |
 |![Lighthouse](resources/lighthouse-desktop.png "Lighthouse Scores desktop")|![Lighthouse](resources/lighthouse-mobile.png "Lighthouse Scores mobile")|
 
-
-LIGHTHOUSE FOR COMFERMATION 
+Confirmation page.
+| Desktop | Mobile |
+| --- | --- |
+|![Lighthouse](resources/lighthouse-conf-desktop.png "Lighthouse Scores desktop")|![Lighthouse](resources/lighthouse-conf-mobile.png "Lighthouse Scores mobile")|
