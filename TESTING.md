@@ -72,3 +72,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Desktop | Mobile |
 | --- | --- |
 |![Lighthouse](resources/lighthouse-desktop.png "Lighthouse Scores desktop")|![Lighthouse](resources/lighthouse-mobile.png "Lighthouse Scores mobile")|
+
+
+LIGHTHOUSE FOR COMFERMATION 
