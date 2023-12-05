@@ -13,14 +13,14 @@
         content="Gym, Yoga, Fitness, Health, Wellness, Exercise, Strength Training, Cardio, Mindfulness, Classes, Personal Training, Yoga Studio, Workout, Meditation, Healthy Lifestyle">
     <meta name="author" content="Miller Muscle Mansion">
 
-    <!-- TITLE -->
-    <title>Miller Muscle Mansion</title>
-
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- TITLE -->
+    <title>Miller Muscle Mansion</title>
 </head>
 
 <body>
@@ -34,19 +34,19 @@
             <nav id="nav">
                 <div class="button" id="button-1">
                     <div class="slide"></div>
-                    <a href="#home">home</a>
+                    <a href="#home" title="Home, top of page">home</a>
                 </div>
                 <div class="button" id="button-2">
                     <div class="slide"></div>
-                    <a href="#equipment">equipment</a>
+                    <a href="#equipment" title="Equpment, takes you to the equipment section">equipment</a>
                 </div>
                 <div class="button" id="button-3">
                     <div class="slide"></div>
-                    <a href="#yogamark">yoga</a>
+                    <a href="#yogamark" title="Yoga, takes you to the yoga section">yoga</a>
                 </div>
                 <div class="button" id="button-4">
                     <div class="slide"></div>
-                    <a href="#member">member</a>
+                    <a href="#member" title="Members, takes you to the member section">member</a>
                 </div>
             </nav>
         </div>
@@ -80,7 +80,7 @@
                                 </p>
                                 <div class="flex-center">
                                     <img src="assets/images/pexels-ivan-samkov-4164651.webp" class="image-inside-h"
-                                        alt="Athlete sitting on flor">
+                                        alt="Athlete sitting on floor">
                                 </div>
                                 <h2>Benefits.</h2>
                                 <hr class="red-solid">
@@ -141,7 +141,7 @@
                     <!-- EQUIPMENT SIDE IMAGE -->
                     <div class="side-image">
                         <img src="assets/images/free-side-pexels-ivan-samkov-4164849.webp"
-                            class="image side-image img-right shadow" alt="Dumbbells">
+                            class="image side-image img-right shadow" alt="Dumbbells in dumbbell rack">
                     </div>
 
                     <!-- EQUIPMENT CONTENT -->
@@ -173,7 +173,7 @@
                                         a good choice for home gyms.
                                     </p>
 
-                                    <!-- Inside Free Machine Section Blob -->
+                                    <!-- INSIDE EQUIMENT SECTION -->
                                     <div class="black-inside-equip">
                                         <img src="assets/images/free-side-pexels-pixabay-416809.webp"
                                             alt="Athlete swinging a Kettlebell" style="width: 100%" class="trainer-img">
@@ -192,7 +192,7 @@
                                         </div>
                                     </div>
 
-                                    <!-- Machine Section -->
+                                    <!-- MACHINE SECTION -->
                                     <div>
                                         <h2>Machines.</h2>
                                         <hr class="red-solid">
@@ -250,7 +250,7 @@
                                     inner peace, and a heightened sense of awareness.
                                 </p>
                                 <img src="assets/images/yoga-inside-pexels-pixabay-355863.webp" class="image-inside-y"
-                                    alt="Stones">
+                                    alt="Stones on top of eachother">
                                 <h3>
                                     Yoga is a celebration of the incredible connection between
                                     the self and the universe.
@@ -453,12 +453,16 @@
     <!-- FLOATING TOP BUTTON -->
     <button onclick="topFunction()" id="topButton" title="Go to top">top <i class="fa-solid fa-caret-up"></i></button>
 
+    <!-- FOOTER -->
+    <footer>© 2023 m3 - Miller Muscle Mansion AB | an Elitism Company.</footer>
+
     <script>
         
         let mybutton = document.getElementById("topButton");
-
+<!-- FOOTER -->
         window.onscroll = function () { scrollFunction() };
 
+        /*-- MAKES THE BUTTON APEAR AFTER 20px OF SCROLLING */
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
@@ -467,14 +471,12 @@
             }
         }
 
+        /* SCROLLS TO TOP ON CLICK */
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
     </script>
-
-    <!-- FOOTER -->
-    <footer>© 2023 m3 - Miller Muscle Mansion AB | an Elitism Company.</footer>
 
     <!-- FONT AWESOME HOOK -->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
