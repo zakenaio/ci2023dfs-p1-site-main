@@ -389,7 +389,7 @@ footer {
 #button-4,
 #button-t {
   margin: 10px;
-  background: rgba(185, 185, 185, 0.3);
+  background: rgba(185, 185, 185, 0.534);
   overflow: hidden;
   position: relative;
 }
@@ -404,7 +404,7 @@ footer {
 }
 
 .slide {
-  background: rgba(80, 80, 80, 0.3);
+  background: rgba(43, 43, 43, 0.3);
   bottom: 0;
   height: 100%;
   left: -200px;
@@ -428,7 +428,7 @@ footer {
   right: 10px;
   z-index: 99;
   border: none;
-  background-color: rgba(0, 0, 0, 0.245);
+  background-color: rgba(0, 0, 0, 0.472);
   color: rgb(255, 255, 255);
   padding: 12px;
   border-radius: 15px;
