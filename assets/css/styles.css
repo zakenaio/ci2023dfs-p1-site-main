@@ -449,25 +449,25 @@ footer {
   background: url("../images/header-pexels-victor-freitas-949126.webp") no-repeat center/cover;
 }
 
-#conf-logo {
-  font-size: 1000%;
+#conf-logo h1{
   text-align: center;
-  padding-top: 30px;
+  font-size: 100px;
+  padding-top: 100px;
   letter-spacing: 20px;
 }
 
-#conf-logo-under {
-  font-size: 300%;
+#conf-logo-under h2{
   text-align: center;
-  margin-top: -120px;
-  margin-left: 25px;
-  letter-spacing: 40px;
+  font-size: 50px;
+  margin-top: -20px;
+  letter-spacing: 0px;
 }
 
-#thank-you {
-  font-size: 200%;
+#thank-you h4, p {
+  font-size: 25px;
   color: #4b4b4b;
   text-align: center;
+  padding: 20px;
 }
 
 #conf-gradient {
@@ -530,6 +530,17 @@ footer {
     bottom: -9999px;
     margin: auto;
   }
+
+  /* CONFIRMATION PAGE */
+  #conf-logo h1{
+    font-size: 180px;
+  }
+  
+  #conf-logo-under h2{
+    font-size: 80px;
+    letter-spacing: 0px;
+  }
+
 }
 
 /* Media query: tablets and larger (1040px and up) */
@@ -737,6 +748,24 @@ footer {
     min-height: 500px;
     margin-left: 0px;
   }
+
+  /* CONFIRMATION PAGE */
+  #conf-logo h1{
+    font-size: 280px;
+  }
+  
+  #conf-logo-under h2{
+    font-size: 100px;
+    margin-top: -50px;
+  }
+  
+  #thank-you h4, p {
+    font-size: 30px;
+    color: #4b4b4b;
+    text-align: center;
+    padding: 20px;
+  }
+
 }
 
 /* Media query: laptops and desktops (2000px and up) */
