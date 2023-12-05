@@ -74,7 +74,7 @@ Main page.
 |![Lighthouse](resources/lighthouse-desktop.png "Lighthouse Scores desktop")|![Lighthouse](resources/lighthouse-mobile.png "Lighthouse Scores mobile")|
 
 Confirmation page.
-Here i get a slightly lower accessability score because of my use of a "refresh" tag. More info [here](https://dequeuniversity.com/rules/axe/4.8/meta-refresh "Information about refresh tag"). 
+Here I get a slightly lower accessability score because of my use of a "refresh" tag. More info [here](https://dequeuniversity.com/rules/axe/4.8/meta-refresh "Information about refresh tag"). 
 | Desktop | Mobile |
 | --- | --- |
 |![Lighthouse](resources/lighthouse-conf-desktop.png "Lighthouse Scores desktop")|![Lighthouse](resources/lighthouse-conf-mobile.png "Lighthouse Scores mobile")|
