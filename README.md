@@ -18,13 +18,13 @@ The color choices were carefully selected to create a cohesive and visually appe
 
 #### Text and Highlights:
 - `#3a3a3a` for primary text ensures a readable and balanced contrast against the background.
-- `#4A4A4F` serves as the primary highlight, providing a subtle yet distinct emphasis.
-- `#009FE3` `#009FE3` for secondary and tertiary highlights, respectively, maintain a consistent and vibrant color scheme.
+- `#902b2b` serves as the primary highlight, providing a subtle yet distinct emphasis.
+- `#333333` `#3a3a3a` for secondary and tertiary highlights, respectively, maintain a consistent and vibrant color scheme.
 
 #### Navigation:
-- `#3a3a3a` as the background provides a neutral base for navigation, ensuring readability.
-- `#4A4A4F` for navigation text maintains a clear contrast against the background.
-- `#009FE3` for navigation border and hover effect adds a dynamic and engaging element.
+- `rgba90,90,90,0,3` as the background provides a neutral base for navigation, ensuring readability.
+- `#FFFFFF` for navigation text maintains a clear contrast against the background.
+- `#757575` for navigation border and `rgba43,43,43,0,3` hover effect adds a dynamic and engaging element.
 
 #### Sections:
 - `#D5D5D5` for the home/welcome background creates a welcoming and neutral atmosphere.
@@ -35,7 +35,7 @@ The color choices were carefully selected to create a cohesive and visually appe
 
 #### Special Elements:
 - `#2b2b2b` for dark blobs adds a bold and contrasting visual element.
-- `rgba 126, 128, 114, 0.6` as an overlay on yoga events creates a subtle and immersive effect, enhancing the overall visual appeal.
+- `rgba126,128,114,0.6` as an overlay on yoga events creates a subtle and immersive effect, enhancing the overall visual appeal.
 
 
 ## Typography
